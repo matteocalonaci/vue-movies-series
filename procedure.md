@@ -4,8 +4,6 @@ Inizialmente creo 3 componenti:
 - `The_Footer`,
 
 
-
-
 In `The_Header` creo una navbar con:
 - logo,
 - titolo,
@@ -34,3 +32,18 @@ In `The_Footer` creo 3 colonne:
 
 ognuna delle quali corrisponde ad un array.
 uso un v-for per stampare i contenuti dell'array.
+
+Con vue-router riesco a gestire nuove rotte all'interno dell'applicazione.
+Creo quindi:
+- `Home`
+- `Movies`
+- `Series`
+- `About`
+- `Contact`
+
+Creo anche ulteriori due rotte:
+- `Single_Movie`
+- `Single_Serie`
+Queste due rotte sono di dettaglio, vengono aperte dalla card creata tramite props di movies o series.
+La rotta che si apre si apre tramite un button info in relazione all'id di quella card specifica.
+
